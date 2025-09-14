@@ -1,0 +1,37 @@
+{
+	"dependencies": [
+		"RAModding-VRAM"
+	],
+	"description": "Bunnylift and SteelToebeans\nOriginally by anonymous, adopted by Blackwater.\n\nAdds a Bunnygirl outfit to Deadlift, and a cat outfit to Steeltoe.",
+	"extra": {
+		"godot": {
+			"authors": [
+				"AuthorName"
+			],
+			"compatible_game_version": [
+				"0.0.0"
+			],
+			"compatible_mod_loader_version": [
+				"7.0.0"
+			],
+			"config_schema": {
+
+			},
+			"description_rich": "",
+			"image": null,
+			"incompatibilities": [],
+			"load_before": [],
+			"optional_dependencies": [],
+			"tags": [
+				"Cosmetics",
+				"Skins",
+				"Deadlift",
+				"Steeltoe"
+			]
+		}
+	},
+	"name": "BunnyliftAndSteelToebeans",
+	"namespace": "Anonymous",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/exampleauthor/examplemod"
+}
