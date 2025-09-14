@@ -19,7 +19,9 @@ func _ready() -> void:
 	add_skins()
 
 func add_skins():
-	VRAM_SkinsManager.register_skin(
+	var VRAM_SM = Engine.get_singleton("VRAM_SkinsManager")
+	
+	VRAM_SM.register_skin(
 		Enemy.EnemyType.CHAIN,
 		"Anonymous_BunnyliftAndSteelToebeans_Bunny",
 		"Bunnylift",
@@ -32,7 +34,7 @@ func add_skins():
 	)
 	ModLoaderLog.info("Added Bunnylift!", LOG_NAME)
 	
-	VRAM_SkinsManager.register_skin(
+	VRAM_SM.register_skin(
 		Enemy.EnemyType.SHOTGUN,
 		"Anonymous_BunnyliftAndSteelToebeans_Cat",
 		"SteelToebeans",
